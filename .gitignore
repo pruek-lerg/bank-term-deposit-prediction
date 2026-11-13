@@ -1,0 +1,15 @@
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Raw data (download from UCI — see data/README.md)
+data/*.csv
+
+# Large scored file used only to feed the Power BI dashboard
+outputs/test_scored.csv
+
+# OS files
+.DS_Store
+Thumbs.db

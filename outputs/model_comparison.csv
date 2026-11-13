@@ -1,0 +1,5 @@
+"Model","Accuracy","Precision","Recall","F1","AUC"
+"Logistic Regression",0.7465,0.2566,0.6159,0.3623,0.7545
+"Random Forest",0.8901,0.5683,0.2479,0.3452,0.7414
+"Decision Tree",0.892,0.594,0.2422,0.3441,0.6347
+"Neural Network",0.8884,0.5469,0.2649,0.3569,0.7522
