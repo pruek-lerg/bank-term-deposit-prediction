@@ -117,14 +117,20 @@ Clients who have not subscribed after several contacts rarely do. A cap on conta
 
 ## Power BI Dashboard
 
-The dashboard file is in [`dashboard/`](dashboard/).
+The interactive file is in [`dashboard/`](dashboard/).
 
-> **Note:** The file is the version from the original coursework submission. Its *ML Scoring* page still shows the pre-correction model figures and should be read alongside the results above until it is refreshed against the files in `outputs/`.
+**Page 1: Client Profile**
+
+![Client Profile dashboard page](dashboard/page1_client_profile.png)
+
+**Page 2: ML Scoring**
+
+![ML Scoring dashboard page](dashboard/page2_ml_scoring.png)
 
 | Page | Purpose |
 |---|---|
-| **Client Profile** | Population, median age and median balance, with subscription broken down by education, occupation, marital status and age. |
-| **ML Scoring** | Model performance comparison, client segments by subscription rate and the distribution of model scores across the test set. |
+| **Client Profile** | Population, median age and median balance, with education, occupation, marital status and age compared between subscribers and non-subscribers. |
+| **ML Scoring** | Model performance comparison, client segments by subscription rate and the distribution of Random Forest scores across the test set. |
 
 
 ## Tools Used
@@ -167,7 +173,7 @@ bank-term-deposit-prediction/
 │
 ├── charts/                    26 figures produced by the scripts
 ├── outputs/                   Result tables (CSV) and R session info
-├── dashboard/                 Power BI file
+├── dashboard/                 Power BI file and page screenshots
 └── data/                      Download instructions for the UCI dataset
 ```
 
