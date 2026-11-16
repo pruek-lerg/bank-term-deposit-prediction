@@ -1,5 +1,11 @@
 # Who Should the Bank Call? Predicting Term Deposit Subscriptions
 
+A business analytics project that scores bank clients on how likely they are to subscribe to a term deposit, so a phone campaign can call the most promising clients first. Built in R, with a Power BI dashboard.
+
+![ML Scoring dashboard page](dashboard/page2_ml_scoring.png)
+
+*Power BI dashboard, ML Scoring page. The Client Profile page is shown [further down](#power-bi-dashboard).*
+
 
 ## Business Problem
 
@@ -123,9 +129,7 @@ The interactive file is in [`dashboard/`](dashboard/).
 
 ![Client Profile dashboard page](dashboard/page1_client_profile.png)
 
-**Page 2: ML Scoring**
-
-![ML Scoring dashboard page](dashboard/page2_ml_scoring.png)
+**Page 2: ML Scoring** is shown at the [top of this page](#who-should-the-bank-call-predicting-term-deposit-subscriptions).
 
 | Page | Purpose |
 |---|---|
